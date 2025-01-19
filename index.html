@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>JavaScript Error Handling</title>
+    </head>
+
+    <body style="background-color: plum; font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;">
+    <h2><strong><u>Project on Javascript Error Handling.</u></strong></h2>
+    <p id="result"></p>
+
+    <script>
+        product = (a,b) => a*b;
+
+    try {
+        document.getElementById("result").innerHTML = a;
+        // if the function is invoked here the result will be displayed
+        // if any variable is given the error message get displayed
+    }
+    catch(err) {
+        document.getElementById("result").innerHTML = err.message;
+    }
+    </script>
+
+</body>
+</html>
